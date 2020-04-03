@@ -13,7 +13,7 @@ $name = "";
 // 2. Set variable with Checked Value
 
 
-$name = inputChecked($_POST["name"]);
+$name = inputChecked($_GET["name"]);
 function inputChecked($var) {
 
 }
